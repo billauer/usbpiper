@@ -1,0 +1,5 @@
+#
+# Rule for usbpiper device files. Accessible by all
+#
+
+KERNEL=="usbpiper_*", SUBSYSTEM=="cuse", MODE="666"
